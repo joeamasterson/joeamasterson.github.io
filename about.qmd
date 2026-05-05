@@ -1,19 +1,113 @@
 ---
-title: "About"
-image: profile.jpg
+title: "Joe Allen Masterson"
+image:  vantine_hi_res_2797033.jpg
 about:
-  template: jolla
+  template: trestles
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
+    - icon: envelope
+      text: Email
+      href: mailto:joeamasterson@gmail.com
+    - icon: telephone
+      text: (847) 533-5074
+      href: tel:8475335074
+    - icon: file-earmark-text
+      text: Resume
+      href: resume.pdf
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
-    - icon: github
-      text: Github
-      href: https://github.com
+      href: https://www.linkedin.com/in/joe-masterson-595347266/
+---
+
+## Hi, I'm Joe Masterson
+
+I'm a **History major with minors in Business and Environmental Studies** at 
+the University of the South, Sewanee — graduating May 2026. I'm a member of 
+the **Order of the Gown** academic honor society, a Division III varsity golfer, 
+and a hands-on leader who thrives at the intersection of people, strategy, and 
+purpose.
 
 ---
 
-About this blog
+##  Education
+
+**Bachelor of Arts — History** — The University of the South, Sewanee, TN *(May 2026)*  
+Minor in Business and Environmental Studies  
+GPA: 3.2 | Order of the Gown Academic Honor Society | Fall 2025 Dean's List
+
+---
+
+##  Experience
+
+**Education Intern** — Chief Executive Organization, Washington, DC *(Summer 2025)*  
+Supported program design and execution for high-profile executive education 
+workshops serving C-suite leaders nationwide. Drafted reports and presentations 
+for senior leadership, coordinated logistics for large-scale CEO events, and 
+managed participant feedback to continuously improve the learning experience. 
+Leveraged Microsoft Office Suite and Salesforce to streamline operations and 
+communication.
+
+**Waterfront Staff, Line Cook & Grounds Crew** — Coons Franklin Lodge, Woodruff, WI *(2020–2024)*  
+Over four summers, took on expanding responsibilities across waterfront 
+operations, kitchen management, and guest services at a premier Wisconsin 
+lodge. Trained new kitchen staff, managed inventory, led boating and safety 
+instruction, and maintained grounds and facilities to uphold the highest 
+hospitality standards.
+
+**Outside Services Intern & Golf Cart Attendant** — Conway Farms Golf Club, Lake Forest, IL *(Summer 2023)*  
+Delivered exceptional member services at one of the Chicago area's most 
+prestigious private clubs, managing bag handling, cart maintenance, and 
+range operations.
+
+---
+
+##  Leadership & Activities
+
+**Senior Leadership Board** — Sewanee *(Present)*  
+Selected by Sewanee's Alumni Office and Sewanee Fund to represent the Class 
+of 2026 in a competitive leadership development program focused on alumni 
+engagement, philanthropy, and institutional stewardship.
+
+**Sewanee Men's Golf — Division III Varsity** *(2022–Present)*  
+Active roster member and SAA Conference Champion (2025). Member of SAAC 
+(Student-Athlete Advisory Committee), a group committed to leadership, 
+community impact, and athletic excellence.
+
+**Green View Capital** — Technology & Impact Investment Sectors *(2024–2025)*  
+Managed a portion of Sewanee's $2 million endowment allocation toward 
+sustainable and socially responsible companies. Contributed to investment 
+pitches including Alante Capital and Virtus Real Estate Fund.
+
+**Sigma Nu Fraternity** — House Manager & Philanthropy Chair *(2022–Present)*  
+Held two executive positions, overseeing house operations and organizing 
+community service and fundraising initiatives for the chapter.
+
+**Eagle Scout** — Boy Scout Troop 13, Chicago, IL *(2018)*  
+Led a service project collecting 100+ boxes of school supplies, packing 150+ 
+backpacks donated to Providence Englewood Charter School. Built a storage 
+shelf with a fellow scout to organize remaining supplies for the school's 
+Arts Department.
+
+---
+
+## Skills
+
+**Technical:** Microsoft Office Suite (Word, Excel, PowerPoint), Salesforce, 
+Final Cut Pro  
+**Strengths:** Research & Writing, Event Coordination, Team Leadership, 
+Public Speaking, Stakeholder Communication
+
+---
+
+##  Interests
+
+Golf, hiking, travel, live music, cooking, tennis, and exploring the outdoors — 
+especially the trails around the Cumberland Plateau. I believe the best 
+professionals are curious, adaptable, and never stop learning.
+
+---
+
+## Let's Connect
+
+📧 joeamasterson@gmail.com | 📞 (847) 533-5074
+
+---

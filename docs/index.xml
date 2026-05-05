@@ -5,66 +5,181 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>blog</title>
+<title>Joe Masterson Blog Spring 2026</title>
 <link>https://your-website-url.example.com/</link>
 <atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Tue, 21 Apr 2026 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 04 May 2026 05:00:00 GMT</lastBuildDate>
 <item>
-  <title>Post With Code</title>
-  <dc:creator>Harlow Malloc</dc:creator>
-  <link>https://your-website-url.example.com/posts/post-with-code/</link>
+  <title>A Data-Driven Look at Environment and Resource Use in a Small University Town</title>
+  <dc:creator>Joe Masterson</dc:creator>
+  <link>https://your-website-url.example.com/posts/2026-05-04-data-story-4/</link>
   <description><![CDATA[ 
 
 
 
 
 
-<p>This is a post with executable code.</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span> <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span></span></code></pre></div></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<section id="why-did-we-use-sewanee" class="level2">
+<h2 class="anchored" data-anchor-id="why-did-we-use-sewanee">Why Did we Use Sewanee</h2>
+<p>Using real datasets on Sewanee’s historical weather, Split Creek humidity readings, building-level water consumption, and Fall 2025 housing data, I built an interactive dashboard that lets you explore how this small mountain campus uses and is shaped byits natural environment.</p>
+</section>
+<section id="whats-inside" class="level2">
+<h2 class="anchored" data-anchor-id="whats-inside">What’s Inside</h2>
+<p><strong>Weather Trends (1895–2025):</strong> Over 130 years of temperature and rainfall data reveal how Sewanee’s climate has shifted. The average temperatures and precipitation patterns tell a story that goes far beyond any single season.</p>
+<p><strong>Split Creek Humidity:</strong> Sewanee’s proximity to the Cumberland Plateau gives it a uniquely wet microclimate. The Split Creek weather station data tracks how local humidity tracks with broader rainfall trends year over year.</p>
+<p><strong>Building Water Use:</strong> Not all dorms are created equal. Some buildings on campus consume dramatically more water per person than others — and the presence or absence of air conditioning turns out to be a surprisingly important factor. Which buildings are the biggest water users? The answer might surprise you.</p>
+<p><strong>Fall 2025 Housing:</strong> A close look at water consumption across residential buildings during the Fall 2025 semester, broken down by capacity, gender distribution, and daily usage — revealing patterns in how students actually use resources.</p>
+</section>
+<section id="explore-the-dashboard" class="level2">
+<h2 class="anchored" data-anchor-id="explore-the-dashboard">Explore the Dashboard</h2>
+<p><a href="https://github.com/joeamasterson/Data_story_4">View the interactive Shiny app</a> (<a href="https://github.com/joeamasterson/Data_story_4">GitHub Repo</a>)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://your-website-url.example.com/posts/2026-05-04-data-story-4/thumbnail.jpg" class="img-fluid figure-img"></p>
+<figcaption><strong>Sewanee campus environment and resource used data dashboard.</strong></figcaption>
+</figure>
 </div>
-</div>
+<hr>
 
 
+</section>
 
  ]]></description>
-  <category>news</category>
-  <category>code</category>
-  <category>analysis</category>
-  <guid>https://your-website-url.example.com/posts/post-with-code/</guid>
-  <pubDate>Tue, 21 Apr 2026 05:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+  <category>Environment</category>
+  <category>Data</category>
+  <category>Sewanee</category>
+  <category>Sustainability</category>
+  <guid>https://your-website-url.example.com/posts/2026-05-04-data-story-4/</guid>
+  <pubDate>Mon, 04 May 2026 05:00:00 GMT</pubDate>
+  <media:content url="https://your-website-url.example.com/posts/2026-05-04-data-story-4/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Welcome To My Blog</title>
-  <dc:creator>Tristan O&#39;Malley</dc:creator>
-  <link>https://your-website-url.example.com/posts/welcome/</link>
+  <title>Sewanee Student Habits: Sleep, Streaming &amp; Dream Destinations</title>
+  <dc:creator>Joe Masterson</dc:creator>
+  <link>https://your-website-url.example.com/posts/2026-05-04-data-story-5/</link>
   <description><![CDATA[ 
 
 
 
 
 
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="https://your-website-url.example.com/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+<p><strong>## What Do Sewanee Students Actually Do With Their Time?</strong> Every college campus has its own culture and Sewanee is no exception. Tucked&nbsp;away on the Cumberland Plateau, life here looks a little different than at most&nbsp;universities. But how different, really? In this data story, I surveyed fellow&nbsp;Sewanee students to find out: How much are we sleeping? How much are we&nbsp;streaming? What music are we listening to? And if we could go anywhere in the&nbsp;world, where would we go?&nbsp;The results paint a surprisingly vivid portrait of student life on the Domain.</p>
+<section id="explore-the-full-dashboard" class="level2">
+<h2 class="anchored" data-anchor-id="explore-the-full-dashboard">Explore the Full Dashboard</h2>
+<p><a href="https://joeamasterson.github.io/Data-Story-5-/">View the interactive dashboard</a> (<a href="https://github.com/joeamasterson/Data-Story-5-">GitHub Repo</a>)</p>
+<p><img src="https://your-website-url.example.com/posts/2026-05-04-data-story-5/thumbnail.jpg" class="img-fluid"></p>
+<p><strong>Sewanee student habits survey dashboard.</strong></p>
+<p><em>Data collected via student survey, Spring 2026. Dashboard built with R, flexdashboard, plotly, and leaflet.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Survey</category>
+  <category>Sewanee</category>
+  <category>Student life</category>
+  <category>Sleep</category>
+  <category>Data Visualization</category>
+  <guid>https://your-website-url.example.com/posts/2026-05-04-data-story-5/</guid>
+  <pubDate>Mon, 04 May 2026 05:00:00 GMT</pubDate>
+  <media:content url="https://your-website-url.example.com/posts/2026-05-04-data-story-5/thumbnail.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Guns vs. Growth: What Military Spending Tells Us About Global Development</title>
+  <dc:creator>Joe Masterson</dc:creator>
+  <link>https://your-website-url.example.com/posts/2026-05-04-data-story-3/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="why-these-goals-matter" class="level2">
+<h2 class="anchored" data-anchor-id="why-these-goals-matter">Why These Goals Matter</h2>
+<p>The United Nations established the Sustainable Development Goals to address some of the world’s most pressing challenges — inequality, instability, and lack of economic opportunity. Among the 17 goals, <strong>SDG 8</strong> and <strong>SDG 16</strong> stand out as uniquely interconnected: one focuses on economic growth and decent work, the other on justice, accountable institutions, and peaceful societies.</p>
+<p>Together, they raise a critical question: <strong>can a country truly grow its economy and strengthen its institutions while simultaneously pouring resources into military spending?</strong> The data suggests the answer is complicated.</p>
+</section>
+<section id="a-glimpse-at-the-data" class="level2">
+<h2 class="anchored" data-anchor-id="a-glimpse-at-the-data">A Glimpse at the Data</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://your-website-url.example.com/posts/2026-05-04-data-story-3/thumbnail.jpg" class="img-fluid figure-img"></p>
+<figcaption>Countries with the highest military expenditure in 2020. Source: Forbes/Statista.</figcaption>
+</figure>
+</div>
+<p><strong>Source: Forbes/Statista — <a href="https://www.forbes.com/sites/niallmccarthy/2021/04/28/the-countries-with-the-highest-military-expenditure-in-2020-infographic/">The Countries With The Highest Military Expenditure in 2020</a></strong></p>
+</section>
+<section id="explore-the-data-story" class="level2">
+<h2 class="anchored" data-anchor-id="explore-the-data-story">Explore the Data Story</h2>
+<p><a href="https://joeamasterson.github.io/data_story_3/">View the full data story on GitHub Pages</a> (<a href="https://github.com/joeamasterson/data_story_3">GitHub Repo</a>)</p>
+</section>
+<section id="key-takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="key-takeaways">Key Takeaways</h2>
+<ul>
+<li>Military spending crowds out investment in education, infrastructure, and jobs</li>
+<li>High defense budgets often correlate with weaker institutional stability</li>
+<li><h2 id="the-trade-off-between-national-security-and-sustainable-development-is-real" class="anchored">The trade-off between national security and sustainable development is real</h2></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Data</category>
+  <category>Policy</category>
+  <category>Economics</category>
+  <category>Global Affairs</category>
+  <guid>https://your-website-url.example.com/posts/2026-05-04-data-story-3/</guid>
+  <pubDate>Thu, 09 Apr 2026 05:00:00 GMT</pubDate>
+  <media:content url="https://your-website-url.example.com/posts/2026-05-04-data-story-3/thumbnail.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Oceans on the Line: Can We Feed the World Without Emptying the Sea?</title>
+  <dc:creator>Joe Masterson</dc:creator>
+  <link>https://your-website-url.example.com/posts/2026-05-04-data-story-2/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>As the world’s appetite for seafood grows, so does the pressure on our oceans. Sustainable Development Goal 14 calls for the conservation and sustainable use of marine resources but can that vision survive a booming global fish market? This data story dives into the data on seafood consumption trends, fish stock depletion, and aquaculture growth to ask a urgent question: are we fishing our way to a crisis?</p>
+<p><a href="https://joeamasterson.github.io/data_story_2/#trends">View the full data story</a> (<a href="https://github.com/joeamasterson/data_story_2">GitHub repo</a>)</p>
+<p><img src="https://your-website-url.example.com/posts/2026-05-04-data-story-2/thumbnail.jpg" class="img-fluid"></p>
+<p><em>Global seafood consumption per person has more than doubled since 1960, rising from roughly 9 kg to over 20 kg per person by 2020 — raising serious questions about the long-term sustainability of marine ecosystems. Data from the FAO. Chart by Joe Masterson.</em> —</p>
 
 
 
  ]]></description>
-  <category>news</category>
-  <guid>https://your-website-url.example.com/posts/welcome/</guid>
-  <pubDate>Sat, 18 Apr 2026 05:00:00 GMT</pubDate>
+  <category>ocean</category>
+  <category>sustainability</category>
+  <category>SDG</category>
+  <guid>https://your-website-url.example.com/posts/2026-05-04-data-story-2/</guid>
+  <pubDate>Sun, 15 Mar 2026 05:00:00 GMT</pubDate>
+  <media:content url="https://your-website-url.example.com/posts/2026-05-04-data-story-2/thumbnail.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Global Development and Economic Indicators</title>
+  <dc:creator>Joe Masterson</dc:creator>
+  <link>https://your-website-url.example.com/posts/2026-05-04-data-story-1/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>As the world races to decarbonize, not all countries are keeping pace. This data story explores global renewable energy adoption, GDP relationships, and the stark divide between developed and developing nations. From solar surges in Europe to stalled transitions in Sub-Saharan Africa, the patterns are surprising and urgent.</p>
+<p><a href="https://joeamasterson.github.io/data_story_1">View the full data story</a> (<a href="https://github.com/joeamasterson/data_story_1">GitHub repo</a>) <img src="https://your-website-url.example.com/posts/2026-05-04-data-story-1/thumbnail.jpg" class="img-fluid"> <em>GDP per capita (constant 2000 USD) by continent from 1950 to 2010. Europe far outpaces other regions, reaching over $25,000 by 2010, while Africa remains nearly flat. Data from the Levelized Cost of Energy Dataset. Chart by Joe Masterson.</em> —</p>
+
+
+
+ ]]></description>
+  <category>energy</category>
+  <category>data</category>
+  <guid>https://your-website-url.example.com/posts/2026-05-04-data-story-1/</guid>
+  <pubDate>Tue, 17 Feb 2026 06:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Joe Masterson">
+<meta name="dcterms.date" content="2026-05-04">
+<meta name="description" content="Most people walk past their university’s buildings every day without ever asking: how much water does that dorm use? How has the weather changed over the past century? This interactive data story answers those questions for Sewanee.">
 
-<title>Joe Masterson Blog Spring 2026</title>
+<title>A Data-Driven Look at Environment and Resource Use in a Small University Town – Joe Masterson Blog Spring 2026</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2890eba573baac25c3e9f0f9d94fc55f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-2890eba573baac25c3e9f0f9d94fc55f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,79 +71,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
+<link rel="stylesheet" href="../../styles.css">
+</head>
 
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Joe Masterson Blog Spring 2026" href="index.xml" data-external="1"></head>
-
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Joe Masterson Blog Spring 2026</span>
     </a>
   </div>
@@ -153,7 +96,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">Joe Allen Masterson</span></a>
   </li>  
   <li class="nav-item compact">
@@ -176,166 +119,80 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Joe Masterson Blog Spring 2026</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">A Data-Driven Look at Environment and Resource Use in a Small University Town</h1>
+                  <div>
+        <div class="description">
+          Most people walk past their university’s buildings every day without ever asking: how much water does that dorm use? How has the weather changed over the past century? This interactive data story answers those questions for Sewanee.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Environment</div>
+                <div class="quarto-category">Data</div>
+                <div class="quarto-category">Sewanee</div>
+                <div class="quarto-category">Sustainability</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Joe Masterson </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 4, 2026</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-<p>Welcome to my blog! Here you’ll find posts about my projects from this semester. I’m glad you stopped by feel free to browse around. —</p>
+<section id="why-did-we-use-sewanee" class="level2">
+<h2 class="anchored" data-anchor-id="why-did-we-use-sewanee">Why Did we Use Sewanee</h2>
+<p>Using real datasets on Sewanee’s historical weather, Split Creek humidity readings, building-level water consumption, and Fall 2025 housing data, I built an interactive dashboard that lets you explore how this small mountain campus uses and is shaped byits natural environment.</p>
+</section>
+<section id="whats-inside" class="level2">
+<h2 class="anchored" data-anchor-id="whats-inside">What’s Inside</h2>
+<p><strong>Weather Trends (1895–2025):</strong> Over 130 years of temperature and rainfall data reveal how Sewanee’s climate has shifted. The average temperatures and precipitation patterns tell a story that goes far beyond any single season.</p>
+<p><strong>Split Creek Humidity:</strong> Sewanee’s proximity to the Cumberland Plateau gives it a uniquely wet microclimate. The Split Creek weather station data tracks how local humidity tracks with broader rainfall trends year over year.</p>
+<p><strong>Building Water Use:</strong> Not all dorms are created equal. Some buildings on campus consume dramatically more water per person than others — and the presence or absence of air conditioning turns out to be a surprisingly important factor. Which buildings are the biggest water users? The answer might surprise you.</p>
+<p><strong>Fall 2025 Housing:</strong> A close look at water consumption across residential buildings during the Fall 2025 semester, broken down by capacity, gender distribution, and daily usage — revealing patterns in how students actually use resources.</p>
+</section>
+<section id="explore-the-dashboard" class="level2">
+<h2 class="anchored" data-anchor-id="explore-the-dashboard">Explore the Dashboard</h2>
+<p><a href="https://github.com/joeamasterson/Data_story_4">View the interactive Shiny app</a> (<a href="https://github.com/joeamasterson/Data_story_4">GitHub Repo</a>)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="thumbnail.jpg" class="img-fluid figure-img"></p>
+<figcaption><strong>Sewanee campus environment and resource used data dashboard.</strong></figcaption>
+</figure>
+</div>
+<hr>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="RW52aXJvbm1lbnQlMkNEYXRhJTJDU2V3YW5lZSUyQ1N1c3RhaW5hYmlsaXR5" data-listing-date-sort="1777870800000" data-listing-file-modified-sort="1777945182009" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
-<div class="thumbnail"><a href="./posts/2026-05-04-data-story-4/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/2026-05-04-data-story-4/thumbnail.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2026-05-04-data-story-4/index.html" class="no-external">A Data-Driven Look at Environment and Resource Use in a Small University Town</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2026-05-04-data-story-4/index.html" class="no-external">
-<p>Most people walk past their university’s buildings every day without ever asking: how much water does that dorm use? How has the weather changed over the past century? This interactive data story answers those questions for Sewanee.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2026-05-04-data-story-4/index.html" class="no-external">
-<div class="listing-date">
-May 4, 2026
-</div>
-<div class="listing-author">
-Joe Masterson
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="U3VydmV5JTJDU2V3YW5lZSUyQ1N0dWRlbnQlMjBsaWZlJTJDU2xlZXAlMkNEYXRhJTIwVmlzdWFsaXphdGlvbg==" data-listing-date-sort="1777870800000" data-listing-file-modified-sort="1777945971520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="115">
-<div class="thumbnail"><a href="./posts/2026-05-04-data-story-5/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/2026-05-04-data-story-5/thumbnail.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2026-05-04-data-story-5/index.html" class="no-external">Sewanee Student Habits: Sleep, Streaming &amp; Dream Destinations</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2026-05-04-data-story-5/index.html" class="no-external">
-<p>A survey-based data story exploring the daily habits and preferences of Sewanee students, including sleep patterns, streaming behavior, music taste, and global travel aspirations.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2026-05-04-data-story-5/index.html" class="no-external">
-<div class="listing-date">
-May 4, 2026
-</div>
-<div class="listing-author">
-Joe Masterson
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="RGF0YSUyQ1BvbGljeSUyQ0Vjb25vbWljcyUyQ0dsb2JhbCUyMEFmZmFpcnM=" data-listing-date-sort="1775710800000" data-listing-file-modified-sort="1777943269755" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="154">
-<div class="thumbnail"><a href="./posts/2026-05-04-data-story-3/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/2026-05-04-data-story-3/thumbnail.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2026-05-04-data-story-3/index.html" class="no-external">Guns vs.&nbsp;Growth: What Military Spending Tells Us About Global Development</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2026-05-04-data-story-3/index.html" class="no-external">
-<p>An exploration of how military spending intersects with economic growth and institutional stability through the lens of UN Sustainable Development Goals 8 and 16.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2026-05-04-data-story-3/index.html" class="no-external">
-<div class="listing-date">
-Apr 9, 2026
-</div>
-<div class="listing-author">
-Joe Masterson
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="b2NlYW4lMkNzdXN0YWluYWJpbGl0eSUyQ1NERw==" data-listing-date-sort="1773550800000" data-listing-file-modified-sort="1777919158019" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="113">
-<div class="thumbnail"><a href="./posts/2026-05-04-data-story-2/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/2026-05-04-data-story-2/thumbnail.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2026-05-04-data-story-2/index.html" class="no-external">Oceans on the Line: Can We Feed the World Without Emptying the Sea?</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2026-05-04-data-story-2/index.html" class="no-external">
-<p>As global seafood demand surges, this data story investigates whether rising consumption is pushing marine ecosystems past the breaking point — and what it means for the UN’s goal to protect life below water.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2026-05-04-data-story-2/index.html" class="no-external">
-<div class="listing-date">
-Mar 15, 2026
-</div>
-<div class="listing-author">
-Joe Masterson
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="ZW5lcmd5JTJDZGF0YQ==" data-listing-date-sort="1771308000000" data-listing-file-modified-sort="1777918844606" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
-<div class="thumbnail"><a href="./posts/2026-05-04-data-story-1/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/2026-05-04-data-story-1/thumbnail.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2026-05-04-data-story-1/index.html" class="no-external">Global Development and Economic Indicators</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2026-05-04-data-story-1/index.html" class="no-external">
-<p>A deep dive into global renewable energy trends</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2026-05-04-data-story-1/index.html" class="no-external">
-<div class="listing-date">
-Feb 17, 2026
-</div>
-<div class="listing-author">
-Joe Masterson
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

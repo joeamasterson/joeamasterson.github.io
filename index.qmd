@@ -1,13 +1,16 @@
 ---
-title: "blog"
+title: "Joe Masterson Blog Spring 2026"
 listing:
   contents: posts
   feed: true
   sort: "date desc"
   type: default
-  categories: true
+  categories: false
   sort-ui: false
   filter-ui: false
 page-layout: full
 title-block-banner: true
+---
+Welcome to my blog! Here you'll find posts about my projects from this semester.
+I'm glad you stopped by feel free to browse around.
 ---

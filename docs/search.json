@@ -2,29 +2,155 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Joe Allen Masterson",
     "section": "",
-    "text": "About this blog"
+    "text": "I’m a History major with minors in Business and Environmental Studies at the University of the South, Sewanee — graduating May 2026. I’m a member of the Order of the Gown academic honor society, a Division III varsity golfer, and a hands-on leader who thrives at the intersection of people, strategy, and purpose."
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "about.html#hi-im-joe-masterson",
+    "href": "about.html#hi-im-joe-masterson",
+    "title": "Joe Allen Masterson",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "I’m a History major with minors in Business and Environmental Studies at the University of the South, Sewanee — graduating May 2026. I’m a member of the Order of the Gown academic honor society, a Division III varsity golfer, and a hands-on leader who thrives at the intersection of people, strategy, and purpose."
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Joe Allen Masterson",
+    "section": "Education",
+    "text": "Education\nBachelor of Arts — History — The University of the South, Sewanee, TN (May 2026)\nMinor in Business and Environmental Studies\nGPA: 3.2 | Order of the Gown Academic Honor Society | Fall 2025 Dean’s List"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Joe Allen Masterson",
+    "section": "Experience",
+    "text": "Experience\nEducation Intern — Chief Executive Organization, Washington, DC (Summer 2025)\nSupported program design and execution for high-profile executive education workshops serving C-suite leaders nationwide. Drafted reports and presentations for senior leadership, coordinated logistics for large-scale CEO events, and managed participant feedback to continuously improve the learning experience. Leveraged Microsoft Office Suite and Salesforce to streamline operations and communication.\nWaterfront Staff, Line Cook & Grounds Crew — Coons Franklin Lodge, Woodruff, WI (2020–2024)\nOver four summers, took on expanding responsibilities across waterfront operations, kitchen management, and guest services at a premier Wisconsin lodge. Trained new kitchen staff, managed inventory, led boating and safety instruction, and maintained grounds and facilities to uphold the highest hospitality standards.\nOutside Services Intern & Golf Cart Attendant — Conway Farms Golf Club, Lake Forest, IL (Summer 2023)\nDelivered exceptional member services at one of the Chicago area’s most prestigious private clubs, managing bag handling, cart maintenance, and range operations."
+  },
+  {
+    "objectID": "about.html#leadership-activities",
+    "href": "about.html#leadership-activities",
+    "title": "Joe Allen Masterson",
+    "section": "Leadership & Activities",
+    "text": "Leadership & Activities\nSenior Leadership Board — Sewanee (Present)\nSelected by Sewanee’s Alumni Office and Sewanee Fund to represent the Class of 2026 in a competitive leadership development program focused on alumni engagement, philanthropy, and institutional stewardship.\nSewanee Men’s Golf — Division III Varsity (2022–Present)\nActive roster member and SAA Conference Champion (2025). Member of SAAC (Student-Athlete Advisory Committee), a group committed to leadership, community impact, and athletic excellence.\nGreen View Capital — Technology & Impact Investment Sectors (2024–2025)\nManaged a portion of Sewanee’s $2 million endowment allocation toward sustainable and socially responsible companies. Contributed to investment pitches including Alante Capital and Virtus Real Estate Fund.\nSigma Nu Fraternity — House Manager & Philanthropy Chair (2022–Present)\nHeld two executive positions, overseeing house operations and organizing community service and fundraising initiatives for the chapter.\nEagle Scout — Boy Scout Troop 13, Chicago, IL (2018)\nLed a service project collecting 100+ boxes of school supplies, packing 150+ backpacks donated to Providence Englewood Charter School. Built a storage shelf with a fellow scout to organize remaining supplies for the school’s Arts Department."
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "Joe Allen Masterson",
+    "section": "Skills",
+    "text": "Skills\nTechnical: Microsoft Office Suite (Word, Excel, PowerPoint), Salesforce, Final Cut Pro\nStrengths: Research & Writing, Event Coordination, Team Leadership, Public Speaking, Stakeholder Communication"
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "Joe Allen Masterson",
+    "section": "Interests",
+    "text": "Interests\nGolf, hiking, travel, live music, cooking, tennis, and exploring the outdoors — especially the trails around the Cumberland Plateau. I believe the best professionals are curious, adaptable, and never stop learning."
+  },
+  {
+    "objectID": "about.html#lets-connect",
+    "href": "about.html#lets-connect",
+    "title": "Joe Allen Masterson",
+    "section": "Let’s Connect",
+    "text": "Let’s Connect\n📧 joeamasterson@gmail.com | 📞 (847) 533-5074"
+  },
+  {
+    "objectID": "posts/2026-05-04-data-story-1/index.html",
+    "href": "posts/2026-05-04-data-story-1/index.html",
+    "title": "Global Development and Economic Indicators",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "As the world races to decarbonize, not all countries are keeping pace. This data story explores global renewable energy adoption, GDP relationships, and the stark divide between developed and developing nations. From solar surges in Europe to stalled transitions in Sub-Saharan Africa, the patterns are surprising and urgent.\nView the full data story (GitHub repo)  GDP per capita (constant 2000 USD) by continent from 1950 to 2010. Europe far outpaces other regions, reaching over $25,000 by 2010, while Africa remains nearly flat. Data from the Levelized Cost of Energy Dataset. Chart by Joe Masterson. —"
+  },
+  {
+    "objectID": "posts/2026-05-04-data-story-2/index.html",
+    "href": "posts/2026-05-04-data-story-2/index.html",
+    "title": "Oceans on the Line: Can We Feed the World Without Emptying the Sea?",
+    "section": "",
+    "text": "As the world’s appetite for seafood grows, so does the pressure on our oceans. Sustainable Development Goal 14 calls for the conservation and sustainable use of marine resources but can that vision survive a booming global fish market? This data story dives into the data on seafood consumption trends, fish stock depletion, and aquaculture growth to ask a urgent question: are we fishing our way to a crisis?\nView the full data story (GitHub repo)\n\nGlobal seafood consumption per person has more than doubled since 1960, rising from roughly 9 kg to over 20 kg per person by 2020 — raising serious questions about the long-term sustainability of marine ecosystems. Data from the FAO. Chart by Joe Masterson. —"
+  },
+  {
+    "objectID": "posts/2026-05-04-data-story-4/index.html",
+    "href": "posts/2026-05-04-data-story-4/index.html",
+    "title": "A Data-Driven Look at Environment and Resource Use in a Small University Town",
+    "section": "",
+    "text": "Using real datasets on Sewanee’s historical weather, Split Creek humidity readings, building-level water consumption, and Fall 2025 housing data, I built an interactive dashboard that lets you explore how this small mountain campus uses and is shaped byits natural environment."
+  },
+  {
+    "objectID": "posts/2026-05-04-data-story-4/index.html#why-did-we-use-sewanee",
+    "href": "posts/2026-05-04-data-story-4/index.html#why-did-we-use-sewanee",
+    "title": "A Data-Driven Look at Environment and Resource Use in a Small University Town",
+    "section": "",
+    "text": "Using real datasets on Sewanee’s historical weather, Split Creek humidity readings, building-level water consumption, and Fall 2025 housing data, I built an interactive dashboard that lets you explore how this small mountain campus uses and is shaped byits natural environment."
+  },
+  {
+    "objectID": "posts/2026-05-04-data-story-4/index.html#whats-inside",
+    "href": "posts/2026-05-04-data-story-4/index.html#whats-inside",
+    "title": "A Data-Driven Look at Environment and Resource Use in a Small University Town",
+    "section": "What’s Inside",
+    "text": "What’s Inside\nWeather Trends (1895–2025): Over 130 years of temperature and rainfall data reveal how Sewanee’s climate has shifted. The average temperatures and precipitation patterns tell a story that goes far beyond any single season.\nSplit Creek Humidity: Sewanee’s proximity to the Cumberland Plateau gives it a uniquely wet microclimate. The Split Creek weather station data tracks how local humidity tracks with broader rainfall trends year over year.\nBuilding Water Use: Not all dorms are created equal. Some buildings on campus consume dramatically more water per person than others — and the presence or absence of air conditioning turns out to be a surprisingly important factor. Which buildings are the biggest water users? The answer might surprise you.\nFall 2025 Housing: A close look at water consumption across residential buildings during the Fall 2025 semester, broken down by capacity, gender distribution, and daily usage — revealing patterns in how students actually use resources."
+  },
+  {
+    "objectID": "posts/2026-05-04-data-story-4/index.html#explore-the-dashboard",
+    "href": "posts/2026-05-04-data-story-4/index.html#explore-the-dashboard",
+    "title": "A Data-Driven Look at Environment and Resource Use in a Small University Town",
+    "section": "Explore the Dashboard",
+    "text": "Explore the Dashboard\nView the interactive Shiny app (GitHub Repo)\n\n\n\nSewanee campus environment and resource used data dashboard."
+  },
+  {
+    "objectID": "posts/2026-05-04-data-story-3/index.html",
+    "href": "posts/2026-05-04-data-story-3/index.html",
+    "title": "Guns vs. Growth: What Military Spending Tells Us About Global Development",
+    "section": "",
+    "text": "The United Nations established the Sustainable Development Goals to address some of the world’s most pressing challenges — inequality, instability, and lack of economic opportunity. Among the 17 goals, SDG 8 and SDG 16 stand out as uniquely interconnected: one focuses on economic growth and decent work, the other on justice, accountable institutions, and peaceful societies.\nTogether, they raise a critical question: can a country truly grow its economy and strengthen its institutions while simultaneously pouring resources into military spending? The data suggests the answer is complicated."
+  },
+  {
+    "objectID": "posts/2026-05-04-data-story-3/index.html#why-these-goals-matter",
+    "href": "posts/2026-05-04-data-story-3/index.html#why-these-goals-matter",
+    "title": "Guns vs. Growth: What Military Spending Tells Us About Global Development",
+    "section": "",
+    "text": "The United Nations established the Sustainable Development Goals to address some of the world’s most pressing challenges — inequality, instability, and lack of economic opportunity. Among the 17 goals, SDG 8 and SDG 16 stand out as uniquely interconnected: one focuses on economic growth and decent work, the other on justice, accountable institutions, and peaceful societies.\nTogether, they raise a critical question: can a country truly grow its economy and strengthen its institutions while simultaneously pouring resources into military spending? The data suggests the answer is complicated."
+  },
+  {
+    "objectID": "posts/2026-05-04-data-story-3/index.html#a-glimpse-at-the-data",
+    "href": "posts/2026-05-04-data-story-3/index.html#a-glimpse-at-the-data",
+    "title": "Guns vs. Growth: What Military Spending Tells Us About Global Development",
+    "section": "A Glimpse at the Data",
+    "text": "A Glimpse at the Data\n\n\n\nCountries with the highest military expenditure in 2020. Source: Forbes/Statista.\n\n\nSource: Forbes/Statista — The Countries With The Highest Military Expenditure in 2020"
+  },
+  {
+    "objectID": "posts/2026-05-04-data-story-3/index.html#explore-the-data-story",
+    "href": "posts/2026-05-04-data-story-3/index.html#explore-the-data-story",
+    "title": "Guns vs. Growth: What Military Spending Tells Us About Global Development",
+    "section": "Explore the Data Story",
+    "text": "Explore the Data Story\nView the full data story on GitHub Pages (GitHub Repo)"
+  },
+  {
+    "objectID": "posts/2026-05-04-data-story-3/index.html#key-takeaways",
+    "href": "posts/2026-05-04-data-story-3/index.html#key-takeaways",
+    "title": "Guns vs. Growth: What Military Spending Tells Us About Global Development",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\n\nMilitary spending crowds out investment in education, infrastructure, and jobs\nHigh defense budgets often correlate with weaker institutional stability\nThe trade-off between national security and sustainable development is real"
+  },
+  {
+    "objectID": "posts/2026-05-04-data-story-5/index.html",
+    "href": "posts/2026-05-04-data-story-5/index.html",
+    "title": "Sewanee Student Habits: Sleep, Streaming & Dream Destinations",
+    "section": "",
+    "text": "## What Do Sewanee Students Actually Do With Their Time? Every college campus has its own culture and Sewanee is no exception. Tucked away on the Cumberland Plateau, life here looks a little different than at most universities. But how different, really? In this data story, I surveyed fellow Sewanee students to find out: How much are we sleeping? How much are we streaming? What music are we listening to? And if we could go anywhere in the world, where would we go? The results paint a surprisingly vivid portrait of student life on the Domain."
+  },
+  {
+    "objectID": "posts/2026-05-04-data-story-5/index.html#explore-the-full-dashboard",
+    "href": "posts/2026-05-04-data-story-5/index.html#explore-the-full-dashboard",
+    "title": "Sewanee Student Habits: Sleep, Streaming & Dream Destinations",
+    "section": "Explore the Full Dashboard",
+    "text": "Explore the Full Dashboard\nView the interactive dashboard (GitHub Repo)\n\nSewanee student habits survey dashboard.\nData collected via student survey, Spring 2026. Dashboard built with R, flexdashboard, plotly, and leaflet."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "blog",
+    "title": "Joe Masterson Blog Spring 2026",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nApr 21, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 18, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my blog! Here you’ll find posts about my projects from this semester. I’m glad you stopped by feel free to browse around. —\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Data-Driven Look at Environment and Resource Use in a Small University Town\n\n\nMost people walk past their university’s buildings every day without ever asking: how much water does that dorm use? How has the weather changed over the past century? This interactive data story answers those questions for Sewanee.\n\n\n\n\n\nMay 4, 2026\n\n\nJoe Masterson\n\n\n\n\n\n\n\n\n\n\n\n\nSewanee Student Habits: Sleep, Streaming & Dream Destinations\n\n\nA survey-based data story exploring the daily habits and preferences of Sewanee students, including sleep patterns, streaming behavior, music taste, and global travel aspirations.\n\n\n\n\n\nMay 4, 2026\n\n\nJoe Masterson\n\n\n\n\n\n\n\n\n\n\n\n\nGuns vs. Growth: What Military Spending Tells Us About Global Development\n\n\nAn exploration of how military spending intersects with economic growth and institutional stability through the lens of UN Sustainable Development Goals 8 and 16.\n\n\n\n\n\nApr 9, 2026\n\n\nJoe Masterson\n\n\n\n\n\n\n\n\n\n\n\n\nOceans on the Line: Can We Feed the World Without Emptying the Sea?\n\n\nAs global seafood demand surges, this data story investigates whether rising consumption is pushing marine ecosystems past the breaking point — and what it means for the UN’s goal to protect life below water.\n\n\n\n\n\nMar 15, 2026\n\n\nJoe Masterson\n\n\n\n\n\n\n\n\n\n\n\n\nGlobal Development and Economic Indicators\n\n\nA deep dive into global renewable energy trends\n\n\n\n\n\nFeb 17, 2026\n\n\nJoe Masterson\n\n\n\n\n\nNo matching items"
   }
 ]
