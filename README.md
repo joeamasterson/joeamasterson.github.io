@@ -1,3 +1,4 @@
 # joeamasterson.github.io
 
-Final Portfolio
+Final Portfolio Link Blog: https://joeamasterson.github.io/
+
